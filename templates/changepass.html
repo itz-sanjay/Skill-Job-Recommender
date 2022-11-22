@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reset password</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/changepass.css') }}"
+    />
+  </head>
+  <body>
+    <div class="mainDiv">
+      <div class="cardStyle">
+        {% with messages = get_flashed_messages() %} {% if messages %} {% for
+        msg in messages%}
+        <div
+          class="alert alert-{{ msg }} alert-dismissible fade show"
+          role="alert"
+        >
+          <span>{{ msg }}</span>
+          <button
+            type="button"
+            class="close"
+            data-dismiss="alert"
+            aria-label="close"
+          >
+            <span aria-hidden="ture">X</span>
+          </button>
+        </div>
+        {% endfor %} {% endif %} {% endwith %}
+        <form action="{{url_for('forget')}}" method="post">
+          <img class = "form-img" src="static/images/logo.png" alt="" />
+
+          <h2 class="formTitle">Reset Your Password</h2>
+
+          <div class="inputDiv">
+            <label class="inputLabel" for="Email">Email</label>
+            <input type="email" name="Email" required />
+          </div>
+          <div class="inputDiv">
+            <label class="inputLabel" for="password">Old Password</label>
+            <input type="password" name="oldpassword" required />
+          </div>
+
+          <div class="inputDiv">
+            <label class="inputLabel" for="confirmPassword">New Password</label>
+            <input type="password" name="newpass" />
+          </div>
+
+          <div class="buttonWrapper">
+            <button class="submitButton" type="submit">
+              <span>Continue</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

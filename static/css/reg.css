@@ -1,0 +1,284 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	background: url("../images/Skill_Job_home.jpg") no-repeat;
+	font-family: 'Rubik', sans-serif;
+}
+  
+.login-form {
+	background: #fff;
+	width: 500px;
+	margin-top: 20px;
+	margin-left:50px;
+   
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+			flex-direction: column;
+	border-radius: 4px;
+	box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+.login-form h1 {
+	padding: 35px 35px 0 35px;
+	font-weight: 300;
+}
+.login-form .content {
+	padding: 35px;
+	text-align: center;
+}
+.login-form .input-field {
+	padding: 12px 5px;
+}
+.login-form .input-field input {
+	font-size: 16px;
+	display: block;
+	font-family: 'Rubik', sans-serif;
+	width: 100%;
+	padding: 10px 1px;
+	border: 0;
+	border-bottom: 1px solid #747474;
+	outline: none;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+.login-form .input-field input::-webkit-input-placeholder {
+	text-transform: uppercase;
+}
+.login-form .input-field input::-moz-placeholder {
+	text-transform: uppercase;
+}
+.login-form .input-field input:-ms-input-placeholder {
+	text-transform: uppercase;
+}
+.login-form .input-field input::-ms-input-placeholder {
+	text-transform: uppercase;
+}
+.login-form .input-field input::placeholder {
+	text-transform: uppercase;
+}
+.login-form .input-field input:focus {
+	border-color: #222;
+}
+.login-form a.link {
+	text-decoration: none;
+	color: #080101;
+	letter-spacing: 0.2px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 20px;
+}
+.login-form .action {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+			flex-direction: row;
+}
+.login-form .action button {
+	width: 100%;
+	border: none;
+	padding: 18px;
+	font-family: 'Rubik', sans-serif;
+	cursor: pointer;
+	text-transform: uppercase;
+	background:#e29a00;
+	color: rgb(255, 253, 253);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 0;
+	letter-spacing: 0.2px;
+	outline: 0;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.login-form .action button:hover {
+	background: #d8d8d8;
+	color: rgb(11, 1, 1);
+}
+.login-form .action button:nth-child(2) {
+	background: #2d3b55;
+	color: #fff;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 4px;
+}
+.login-form .action button:nth-child(2):hover {
+	background: #3c4d6d;
+}
+  
+.login-form1 {
+	background: #fff;
+	width: 500px;
+	margin-top:20px;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	 flex-direction: column;
+	border-radius: 4px;
+	box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+.login-form .button-wrapper {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+			flex-direction: row;
+}
+.login-form .button{
+	width: 100%;
+	border: none;
+	padding: 18px;
+	font-family: 'Rubik', sans-serif;
+	cursor: pointer;
+	text-transform: uppercase;
+	background:#e29a00;
+	color: rgb(255, 255, 255);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 0;
+	letter-spacing: 0.2px;
+	outline: 0;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+
+.login-form1 h1 {
+	padding: 35px 35px 0 35px;
+	font-weight: 300;
+}
+.login-form1 .content {
+	padding: 35px;
+	text-align: center;
+}
+.login-form1 .input-field {
+	padding: 12px 5px;
+}
+.login-form1 .input-field input {
+	font-size: 16px;
+	display: block;
+	font-family: 'Rubik', sans-serif;
+	width: 100%;
+	padding: 10px 1px;
+	border: 0;
+	border-bottom: 1px solid #747474;
+	outline: none;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+.login-form1 .input-field input::-webkit-input-placeholder {
+	text-transform: uppercase;
+}
+.login-form1 .input-field input::-moz-placeholder {
+	text-transform: uppercase;
+}
+.login-form1 .input-field input:-ms-input-placeholder {
+	text-transform: uppercase;
+}
+.login-form1 .input-field input::-ms-input-placeholder {
+	text-transform: uppercase;
+}
+.login-form1 .input-field input::placeholder {
+	text-transform: uppercase;
+}
+.login-form1 .input-field input:focus {
+	border-color: #222;
+}
+.login-form1 a.link {
+	text-decoration: none;
+	color: #000000;
+	letter-spacing: 0.2px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 20px;
+}
+.login-form1 .action {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+			flex-direction: row;
+}
+.login-form1 .action button {
+	width: 100%;
+	border: none;
+	padding: 18px;
+	font-family: 'Rubik', sans-serif;
+	cursor: pointer;
+	text-transform: uppercase;
+	background:#e29a00;
+	color: rgb(255, 255, 255);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 0;
+	letter-spacing: 0.2px;
+	outline: 0;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.login-form1 .action button:hover {
+	background: #d8d8d8;
+}
+.login-form1 .action button:nth-child(2) {
+	background: #ffffff;
+	color: rgb(7, 1, 1);
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 4px;
+}
+.login-form1 .action button:nth-child(2):hover {
+	background: #3c4d6d;
+}
+  
+.split {
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+  
+.left {
+	left: 0;
+  
+}
+  
+.right {
+	right: 0;
+  
+}
+  
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.login-form1 .button-wrapper {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+			flex-direction: row;
+}
+
+.login-form1 .button {
+	width: 100%;
+	border: none;
+	padding: 18px;
+	font-family: 'Rubik', sans-serif;
+	cursor: pointer;
+	text-transform: uppercase;
+	background:#e29a00;
+	color: rgb(255, 255, 255);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 0;
+	letter-spacing: 0.2px;
+	outline: 0;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
